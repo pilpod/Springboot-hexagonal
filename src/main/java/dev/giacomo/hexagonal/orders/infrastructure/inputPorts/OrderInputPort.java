@@ -6,5 +6,5 @@ import dev.giacomo.hexagonal.orders.domain.Order;
 
 public interface OrderInputPort {
     
-    public Order createOrder( Long customerId, BigDecimal total );
+    public Order createOrder( String customerId, BigDecimal total );
 }

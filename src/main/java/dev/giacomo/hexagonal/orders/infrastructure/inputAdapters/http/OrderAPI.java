@@ -20,7 +20,7 @@ public class OrderAPI {
     OrderInputPort orderInputPort;
 
     @PostMapping(value = "create", produces=MediaType.APPLICATION_JSON_VALUE)
-    public Order create( @RequestParam Long customerId, @RequestParam BigDecimal total ) {
+    public Order create( @RequestParam String customerId, @RequestParam BigDecimal total ) {
         return orderInputPort.createOrder(customerId, total);
         }
     
