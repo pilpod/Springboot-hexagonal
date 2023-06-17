@@ -54,7 +54,7 @@ public class H2Repository implements EntityRepository {
     } 
 
     @Override
-    public <T> T getById(Long id, Class<T> clazz) {
+    public <T> T getById(String id, Class<T> clazz) {
         List<T> list = jdbcTemplate.query("SELECT * FROM "+clazz.getSimpleName()+" WHERE id = ?", 
             new LombokRowMapper<T>( clazz ), 
             id );

@@ -7,6 +7,6 @@ import dev.giacomo.hexagonal.customers.domain.Customer;
 public interface CustomerInputPort {
     
     public Customer createCustomer( String name, String country);
-    public Customer getById( Long id );
+    public Customer getById( String id );
     public List<Customer> getAll();
 }

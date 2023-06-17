@@ -25,7 +25,7 @@ public class CustomerAPI {
         }
 
     @PostMapping(value = "get", produces=MediaType.APPLICATION_JSON_VALUE)
-    public Customer get( @RequestParam Long customerId ) {
+    public Customer get( @RequestParam String customerId ) {
         return customerInputPort.getById(customerId);
         }
 

@@ -11,7 +11,7 @@ import lombok.Setter;
 public class Customer {
 
     @Id
-    private Long id;
+    private String id;
     private String name;
     private String country;
 }
