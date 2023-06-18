@@ -1,4 +1,4 @@
-package dev.giacomo.hexagonal.customers.infrastructure;
+package dev.giacomo.hexagonal.customers.infrastructure.output;
 
 import java.util.UUID;
 

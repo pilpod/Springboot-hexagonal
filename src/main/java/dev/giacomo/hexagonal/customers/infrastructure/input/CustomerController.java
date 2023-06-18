@@ -1,4 +1,4 @@
-package dev.giacomo.hexagonal.customers.infrastructure;
+package dev.giacomo.hexagonal.customers.infrastructure.input;
 
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;

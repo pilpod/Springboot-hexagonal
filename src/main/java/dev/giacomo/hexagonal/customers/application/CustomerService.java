@@ -4,7 +4,7 @@ import org.springframework.stereotype.Service;
 
 import dev.giacomo.hexagonal.core.IServiceBase;
 import dev.giacomo.hexagonal.customers.domain.Customer;
-import dev.giacomo.hexagonal.customers.infrastructure.CustomerRepository;
+import dev.giacomo.hexagonal.customers.infrastructure.output.CustomerRepository;
 
 @Service
 public class CustomerService implements IServiceBase<Customer> {
