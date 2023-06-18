@@ -13,7 +13,7 @@ import lombok.Setter;
 public class Order {
     
     @Id
-    private Long id;
-    private Long customerId;
+    private String id;
+    private String customerId;
     private BigDecimal total;
 }
